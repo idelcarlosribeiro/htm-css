@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML 5</title>
+</head>
+<body>
+ <H1>Imagens dinamicas</H1>
+    <p>Tente abrir esse site em varios dispositivos ou almente e diminua o seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="fotos/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="fotos/foto-m.png" type="image/png">
+ <img src="fotos/foto-g.png" alt="">
+    </picture>
+    <!--Essa e uma forma de colocar imagem para fucionar em todas as telas obs: nunca esqueecer de colocar em ordem do MAIOR para o menor img que vai seeer usada depois imagem MEDIA e por ultimo imagem PEQUENA. E o px sempre no tamanho da imagem-->
+
+<h1>Criando audio</h1>
+    <p>criando audios no html</p>
+ <audio preload="metadata" autoplay controls loop>
+    <source src="midia/Nilou Theme Music EXTENDED   Dance of the Delicate Lotus (tnbee mix)   Genshin Impac.mp3" type="audio/mpeg">
+    <!-- Essa é uma forma de coocar musicas em sites-->
+ </audio>
+</body>
+</html>
