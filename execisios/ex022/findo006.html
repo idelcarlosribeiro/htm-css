@@ -3,21 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Doc</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
-            height: 100vh;
+            
+           /* height: 100vh;
             background-color: black;
             background-image: url(imagem/wallpaper002.jpg);
             background-position: center top;
-            background-repeat: no-repeat;
+            background-repeat: no-repeat;*/
+
+            /*Shorthand - backgroud
+            color > image > position > repeat > {size} > attachment */
+
+            background: black url(imagem/wallpaper002.jpg) center center no-repeat fixed;
+            /*backgroud cover não fuciona ainda no shorthand*/
+
+
+            background-attachment: fixed;
+            background-size: cover;
+            /*backgroud-attachment: fixed; para deixar o fundo fixo*/
+
+
 
             background-size: cover;
-            /*cover e melho para o back grade de imagem se ajustar melho na tela */
+            /*cover e melho para o back grade de imagem se ajustar melho na tela*/
         }
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
