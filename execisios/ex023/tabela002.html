@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas grandes</h1>
+    <!-- 
+        ANATOMIA PARA TABELAS GRANDES
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+    <table>
+        <thead> <!-- cabeça-->
+            <tr>
+                <th>Posição</th>
+                <th>Estado</th>
+                <th>População</th>
+                <th>População 2010</th>
+                <th>Mudança</th>
+                <th>Dado Total</th>
+                <th>Pais provaveis</th>
+            </tr>
+
+        </thead>
+
+        <tbody> <!-- corpo-->
+            
+            <tr>
+                <td>1</td>
+                <td>São Paulo</td>
+                <td>44 420 459</td>
+                <td>41 262 199</td>
+                <td>+7.65%</td>
+                <td>21,88%</td>
+                <td>Espanha (46 754 778)</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Minas Gerais</td>
+                <td>20 538 718</td>
+                <td>19 597 330</td>
+                <td>+4.8%</td>
+                <td>10,11%</td>
+                <td> Burquina Fasso <br>(20 903 273)</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Rio de Janeiro</td>
+                <td>16 054 524</td>
+                <td>15 989 929</td>
+                <td>+0.4%</td>
+                <td>7,91%</td>
+                <td>Camboja (16 718 965)</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Bahia</td>
+                <td>14 136 417</td>
+                <td>14 016 906</td>
+                <td>+0.85%</td>
+                <td>6,96%</td>
+                <td> Zimbabwe (14 862 924)</td>
+            </tr>
+        </tbody>
+        <tfoot> <!-- pé-->
+            <th>Total de Habitantes</th>
+            <td>00000</td>
+        </tfoot>
+    </table>
+</body>
+</html>
