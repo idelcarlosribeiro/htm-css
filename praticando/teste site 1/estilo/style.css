@@ -73,7 +73,7 @@ background-color: rgb(15, 15, 15);
   box-shadow: 3px 3px 13px 1px rgba(0, 0, 0, 0.308);
 }
 
-nav > a {
+nav > ul > a {
   color: #15b97a;
   padding: 15px;
   border-radius: 10px;
@@ -82,7 +82,7 @@ nav > a {
   transition-duration: 1.3s;
 }
 
-nav > a:hover {
+nav > ul > a:hover {
   background-color: var(--cor3);
   color: var(--cor0);
 }
