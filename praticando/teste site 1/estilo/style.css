@@ -45,8 +45,8 @@ header h1 {
 
 header > p {
   font-family: var(--fonte-padrao);
-  padding-right: 20px;
-  padding-left: 20px;
+  text-align: center;
+  padding-top: 25px;
   color: #ffffff;
 }
 
@@ -69,20 +69,36 @@ header a:hover {
 
 nav {
 background-color: rgb(15, 15, 15);
-  padding: 20px;
   box-shadow: 3px 3px 13px 1px rgba(0, 0, 0, 0.308);
+  height: 60px;
+  position: relative;
 }
 
-nav > ul > a {
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #0e0e0e;
+  
+}
+
+.logo > a {
+  padding: 5px;
+  margin: 2px;
+}
+
+.navega > a {
   color: #15b97a;
-  padding: 15px;
+  font-size: 1.2em;
+  padding: 10px;
   border-radius: 10px;
   text-decoration: none;
   font-weight: bold;
-  transition-duration: 1.3s;
+  transition-duration: 0.5s;
 }
 
-nav > ul > a:hover {
+
+.navega a:hover {
   background-color: var(--cor3);
   color: var(--cor0);
 }
